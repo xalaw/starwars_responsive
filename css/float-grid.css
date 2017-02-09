@@ -1,0 +1,47 @@
+/* Make sure boxes are exact width no matter the margin or padding */
+* {
+	box-sizing: border-box;
+}
+
+
+
+/* set row max width and the outer margin + center on page. */
+
+
+
+
+
+
+
+/* Clearfix */
+.row::before,
+.row::after {
+	display: table;
+	content: '';
+}
+
+.row::after {
+	clear:both;
+}
+
+/* set up column types   3,4,6,12  using float and how much padding between each col */
+
+
+
+
+
+/* Mobile default for columns should be 100%  to fill width of phones */
+
+
+
+/* Not mobile -  actual grid. using meda */
+@media only screen and (min-width: 640px) {
+	/* 3 columns */
+
+	/* 4 columns */
+
+	/* 6 columns */
+
+	/* 12 columns */
+
+}
