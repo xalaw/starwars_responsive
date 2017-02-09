@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.card {
+	border: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+.card img {
+	width: 100%;
+}
+.card h2, .card p {
+	margin-left: 15px;
+}
