@@ -7,7 +7,12 @@
 
 /* set row max width and the outer margin + center on page. */
 
-
+.row {
+	max-width:1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
 
 
 
@@ -26,12 +31,18 @@
 
 /* set up column types   3,4,6,12  using float and how much padding between each col */
 
-
+.col-4, .col-12 {
+	float:left;
+	padding-left: 1.041666%;
+	padding-right: 1.041666%;
+}
 
 
 
 /* Mobile default for columns should be 100%  to fill width of phones */
-
+.col-4, .col-12 {
+	width: 100%;
+}
 
 
 /* Not mobile -  actual grid. using meda */
@@ -39,9 +50,14 @@
 	/* 3 columns */
 
 	/* 4 columns */
-
+.col-4 {
+	width: 33%;
+}
 	/* 6 columns */
 
 	/* 12 columns */
+.col-12 {
+	width: 100%;
+}	
 
 }

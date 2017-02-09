@@ -2,10 +2,20 @@ body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 }
-
+.title-area {
+	background-color: gold;
+	margin-bottom: 30px;
+}
+.title-area h1 {
+	margin-bottom: 0;
+}
+.title-area p {
+	margin: .7em 0 1em;
+}
 .card {
 	border: 1px solid #ccc;
 	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 .card img {
 	width: 100%;
